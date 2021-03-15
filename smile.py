@@ -40,7 +40,8 @@ while not done:
     # Clear the screen and set the screen background
     screen.fill(WHITE)
 
-    pygame.draw.circle(screen, YELLOW, [x, y], pi * 33, )
+
+    pygame.draw.circle(screen, YELLOW, [x, y], pi * 33,)
     pygame.draw.circle(screen, BLACK, [x, y], pi * 33, 1) #obvodka
     pygame.draw.circle(screen, RED, [x + 40, y - 30], pi * 6,)
     pygame.draw.circle(screen, BLACK, [x + 40, y - 30], pi * 6, 1) #obvodka
@@ -52,11 +53,11 @@ while not done:
     pygame.draw.line(screen, BLACK, [x - 10, y - 40], [x - 100 , y - 80], 11)
     pygame.draw.line(screen, BLACK, [x + 20, y - 40], [x + 100, y - 70], 11)
 
-
+    pygame.draw.circle(screen, BLACK, [x, y], pi * 1, 10)
 
 
     pygame.display.flip()
 
-
+#Proverka gita
 
 pygame.quit()
