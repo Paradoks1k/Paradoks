@@ -52,12 +52,9 @@ while not done:
     pygame.draw.rect(screen, BLACK, [150, 250, 100, 20], 10, 1 )
     pygame.draw.line(screen, BLACK, [x - 10, y - 40], [x - 100 , y - 80], 11)
     pygame.draw.line(screen, BLACK, [x + 20, y - 40], [x + 100, y - 70], 11)
-
     pygame.draw.circle(screen, BLACK, [x, y], pi * 1, 10)
 
-
     pygame.display.flip()
-
 #Proverka gita
 
 pygame.quit()
